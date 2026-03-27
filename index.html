@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Les Fils de riches</title>
+<style>
+  body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background: #f0f0f5;
+    color: #222;
+  }
+  nav {
+    background: #f8b500;
+    padding: 15px 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+  nav a:hover {
+    color: #ff4c4c;
+  }
+  header {
+    background: url('https://images.unsplash.com/photo-1573497491208-6b1acb260507?auto=format&fit=crop&w=1950&q=80') no-repeat center center/cover;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 6px rgba(0,0,0,0.7);
+  }
+  header h1 {
+    font-size: 3.5em;
+    margin: 0;
+  }
+  header p {
+    font-size: 1.3em;
+    margin-top: 20px;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  section {
+    padding: 60px 10%;
+    background: #fff;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+  }
+  section h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #f8b500;
+  }
+  section p {
+    font-size: 1.1em;
+    margin-bottom: 15px;
+  }
+  button {
+    padding: 12px 25px;
+    background: #f8b500;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 15px;
+    transition: 0.3s;
+  }
+  button:hover {
+    background: #ff4c4c;
+  }
+  .chapter {
+    margin-bottom: 40px;
+  }
+  .chapter h3 {
+    font-size: 1.8em;
+    color: #222;
+  }
+</style>
+</head>
+<body>
+
+<nav>
+  <div><strong>Les Fils de riches</strong></div>
+  <div>
+    <a href="#personnages">Personnages</a>
+    <a href="#chapitres">Chapitre / Épisodes</a>
+  </div>
+</nav>
+
+<header>
+  <h1>Bienvenue à Douala</h1>
+  <p>Nelcia et Melwem, enfants d’une fortune éclatante, découvrent que la vie à l’université n’obéit à aucune règle de richesse. Entre secrets familiaux, tragédies et liens inattendus, leur histoire croise celle de Midorima, un jeune garçon solitaire marqué par l’abandon et la douleur.</p>
+  <button class="button" onclick="alert('Bienvenue dans l’aventure des Fils de riches ! Prépare-toi à plonger dans un monde de secrets, de courage et de révélations. Clique pour commencer ton voyage !'); window.location.href='chapitre1.html';">Suis l’aventure par ici</button>
+</header>
+
+<section id="personnages">
+  <h2>Personnages principaux</h2>
+  <p><strong>Nelcia :</strong> Élève brillante et provocatrice, fille de Barthélémy et sœur de Melwem. Son lien avec Midorima transforme sa vie et celle de son entourage.</p>
+  <p><strong>Melwem :</strong> Frère protecteur de Nelcia, il cherche réconfort et compréhension auprès de Midorima après la disparition de sa sœur.</p>
+  <p><strong>Midorima :</strong> Fils de Fadila et rejeté par Barthélémy, il devient un pilier inattendu pour Melwem et témoigne des événements tragiques.</p>
+  <p><strong>Barthélémy :</strong> Père influent et distant, il refuse d’assumer ses responsabilités envers Midorima.</p>
+  <p><strong>Fadila :</strong> Mère de Midorima, son passé influence profondément la dynamique entre les jeunes riches et le jeune garçon.</p>
+</section>
+
+<section id="chapitres">
+  <h2>Chapitre / Épisodes</h2>
+
+  <div class="chapter">
+    <h3>Chapitre 1 : La rencontre fatale</h3>
+    <p>Une soirée tragique bouleverse la vie de Nelcia et Melik, avec Midorima comme unique témoin.</p>
+    <button onclick="window.location.href='chapitre1.html'">Lire le Chapitre 1</button>
+  </div>
+
+  <div class="chapter">
+    <h3>Chapitre 2 : Les conséquences</h3>
+    <p>Melwem ressent la douleur de la perte de sa sœur et se rapproche de Midorima pour trouver soutien et réconfort.</p>
+    <button onclick="window.location.href='chapitre2.html'">Lire le Chapitre 2</button>
+  </div>
+
+  <div class="chapter">
+    <h3>Chapitre 3 : Douala, ville d’Aquaman</h3>
+    <p>Les rues animées de Douala révèlent un monde où le pouvoir, l’argent et la justice s’entrechoquent, impactant la vie de nos héros.</p>
+    <button onclick="window.location.href='chapitre3.html'">Lire le Chapitre 3</button>
+  </div>
+
+  <div class="chapter">
+    <h3>Chapitre 4 : Rapprochements inattendus</h3>
+    <p>Melwem et Midorima tissent un lien profond, découvrant que l’amitié et la compassion sont plus précieuses que la richesse et le statut.</p>
+    <button onclick="window.location.href='chapitre4.html'">Lire le Chapitre 4</button>
+  </div>
+                                                                                     <a href="chapitre1.html" class="chapter-link">Lire le Chapitre 1</a>
+                                                                                       <a href="chapitre2.html" class="chapter-link">Lire le Chapitre 2</a>
+                                                                                        <a href="chapitre3.html" class="chapter-link">Lire le Chapitre 3</a>
+                                                                                          <a href="chapitre4.html" class="chapter-link">Lire le Chapitre 4</a>
+
+</section>
+ </body>                                                                                     
+</html>

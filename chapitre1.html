@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Chapitre 1 - La rencontre fatale</title>
+<style>
+  /* Fonts et body */
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+  body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.7;
+    background: linear-gradient(120deg, #f8f1e4, #f0f0f5);
+    color: #333;
+    padding: 50px 10%;
+    transition: background 1s ease;
+  }
+
+  /* Conteneur du chapitre */
+  .chapter {
+    background: white;
+    padding: 40px 50px;
+    border-radius: 20px;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+    animation: fadeIn 1s ease forwards;
+    opacity: 0;
+  }
+
+  /* Animation d'apparition */
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px);}
+    to { opacity: 1; transform: translateY(0);}
+  }
+
+  h1 {
+    font-size: 3em;
+    color: #f8b500;
+    margin-bottom: 25px;
+    text-align: center;
+    position: relative;
+  }
+
+  h1::after {
+    content: '';
+    display: block;
+    width: 80px;
+    height: 4px;
+    background: #ff4c4c;
+    margin: 15px auto 0;
+    border-radius: 2px;
+    animation: slideIn 1s ease forwards;
+  }
+
+  @keyframes slideIn {
+    from { width: 0; }
+    to { width: 80px; }
+  }
+
+  p {
+    margin-bottom: 20px;
+    font-size: 1.15em;
+    line-height: 1.8;
+    color: #555;
+    opacity: 0;
+    animation: textFade 1s ease forwards;
+  }
+
+  p:nth-of-type(1) { animation-delay: 0.2s; }
+  p:nth-of-type(2) { animation-delay: 0.4s; }
+  p:nth-of-type(3) { animation-delay: 0.6s; }
+  p:nth-of-type(4) { animation-delay: 0.8s; }
+  p:nth-of-type(5) { animation-delay: 1s; }
+  p:nth-of-type(6) { animation-delay: 1.2s; }
+  p:nth-of-type(7) { animation-delay: 1.4s; }
+
+  @keyframes textFade {
+    from { opacity: 0; transform: translateX(-20px);}
+    to { opacity: 1; transform: translateX(0);}
+  }
+
+  button {
+    display: block;
+    padding: 15px 35px;
+    background: #f8b500;
+    color: white;
+    font-weight: 600;
+    font-size: 1.1em;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    margin: 30px auto 0;
+    transition: all 0.3s ease;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+  }
+
+  button:hover {
+    background: #ff4c4c;
+    transform: translateY(-3px);
+    box-shadow: 0 12px 25px rgba(0,0,0,0.2);
+  }
+</style>
+</head>
+<body>
+
+<div class="chapter">
+  <h1>Chapitre 1 : La rencontre fatale</h1>
+  
+  <p>Dans les couloirs dorés de l’université privée de Douala, le parfum de l’élégance flottait dans l’air. Les murs semblaient refléter la lumière du soleil qui traversait les grandes baies vitrées, donnant un éclat presque irréel aux vitrines des cafés étudiants et aux bureaux administratifs.</p>
+  
+  <p>Nelcia, avec ses cheveux soigneusement coiffés et son sac de marque en bandoulière, marchait avec assurance, un sourire espiègle sur les lèvres. Melwem, plus réservé mais tout aussi élégant, la suivait d’un pas assuré. Tous deux portaient la richesse comme un costume naturel, mais derrière cette apparence se cachait une curiosité brûlante pour les limites du monde qu’ils ne connaissaient pas encore.</p>
+  
+  <p>Ce soir-là, la soirée organisée dans le quartier huppé de Bonanjo avait drainé tous les étudiants influents. Melik, lui, avait la mine sombre. La trahison de Fadila lui avait laissé un goût amer et une colère sourde. L’alcool glissait dans ses veines comme un venin doux, dissolvant peu à peu sa retenue.</p>
+  
+  <p>Nelcia, toujours en quête de sensations, l’avait repéré parmi la foule et s’était approchée avec cette audace typique des jeunes de son âge. Elle voulait tester les limites, provoquer, sentir la réaction d’un homme brisé par l’alcool et les blessures du passé.</p>
+  
+  <p>Melik la regarda, ses yeux injectés de rouge, un mélange de confusion et de désir. Dans cet instant suspendu, une erreur irréversible se produisit. La tragédie éclata, brutale et silencieuse. Nelcia disparut de l’univers, et avec elle, l’équilibre fragile de cette jeunesse dorée fut brisé.</p>
+  
+  <p>Dans un coin sombre du couloir, Midorima, habituellement invisible, passait par là. Ce soir-là, il devint témoin d’un événement qu’aucun manuel de vie ne lui avait appris à gérer. Le silence pesait sur lui, lourd et oppressant. Il comprit immédiatement que ce qu’il venait de voir n’était pas un simple conflit : c’était un secret qui pouvait détruire des vies.</p>
+  
+  <p>Pour Midorima, la scène ne provoqua pas la peur, mais une responsabilité inattendue. Il savait qu’il devait garder ce secret. Le couloir, qui quelques secondes plus tôt brillait d’une lumière dorée, sembla s’éteindre pour lui. Chaque pas résonnait comme un rappel de la fragilité de l’existence.</p>
+  
+  <button onclick="window.location.href='index.html'">Retour à la page principale</button> 
+  <a href="index.html" class="chapter-link">Returns</a>
+  <button class="button" onclick="alert('Le voyage ne fait que commencer. Découvre comment les conséquences vont transformer nos personnages et leur monde !'); window.location.href='chapitre2.html';">Découvrir le chapitre 2</button>
+</div>
+
+</body>
+</html>
